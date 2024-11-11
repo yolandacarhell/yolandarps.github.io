@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game">
+    <h1>Let's play!</h1>
+    <div id="player1">
+        <form onsubmit="hideFormOne();return false">
+            <span id="name1"></span>: rock, paper or scissors?
+            <br>
+            <input type="text" id="choice1">
+            <br/>
+            <input type="submit" />
+        </form>
+    </div>
+<br>
+    <div id="player2"></div>
+        <form onsubmit="check();hideFormTwo();return false">
+            <span id="name2"></span>: rock, paper or scissors?
+            <br>
+            <input type="text" id="choice2">
+            <br/>
+            <input type="submit" />
+        </form>
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
