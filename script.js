@@ -30,13 +30,13 @@ function check(){
     }
     else if(choiceOne=="paper"){
         if(choiceTwo=="rock"){
-            alert("Player 1 wins!");
+            alert(nameOne+" wins!");
         }
         else if(choiceTwo=="paper"){
             alert("No winner! Play again.");
         }
         else if(choiceTwo=="scissors"){
-            alert("Player 2 wins!");
+            alert(nameTwo+" wins!");
         }
         else{
             alert("Error: enter rock, paper or scissors.");
